@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #2D25A0;
-    height: 700px;
+    height: 830px;
 }
 .half-width{
     width: 69%;
@@ -17,19 +17,24 @@ body{
 .half-width h1{
     margin-top: 10px;
     margin-left: 150px;
-    font-size: 75px;
+    font-size: 70px;
     color: white;
 }
 .half-width a{
     margin-left: 150px;
-    background-color: red;
+    background-color: tomato;
     font-size: 20px;
+}
+.top-parts a:hover {
+    background-color: yellow;
+    color: red;
+    border-radius: 10px; 
 }
 .button{
     font-family: 700px;
     text-decoration: none;
     color:white; 
-    background-color: #E02C6D;
+    /* background-color: #E02C6D; */
     padding: 10px 30px;
     /* border: 1px solid yellow; */
     margin-top: 100px;
@@ -42,6 +47,10 @@ body{
 }
 .half-width img{
     margin-top: 100px;   
+}
+.half-width img:hover{
+    transform: rotate(90deg);
+    transition: transform 2s;
 }
 .half-width img{
     width: 650px;
@@ -86,6 +95,23 @@ main{
 .paragraph{
     font-weight: 300px;
     font-size: 15px;
+}
+/* bd players and coach */
+.bd-palyer-coach img{
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    margin-left: 150px;
+    border: 1px solid rgb(0, 0, 0,0.10);
+    padding: 20px;
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0,0.10) ;
+}
+.bd-text{
+    text-align: center;
+    font-size: 35px;
+}
+.coach{
+    margin-right: 100px;
 }
 /* footer and last part */
 .footer-part{
